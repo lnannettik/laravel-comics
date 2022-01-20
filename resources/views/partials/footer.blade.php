@@ -1,35 +1,36 @@
+
 <footer>
-
-    <div class="left__side">
-
-        <a href="/sign">SIGN-UP NOW!</a>
-    
+    <div class="container">
+        <a href="" class="button">Sign-up now!</a>
+        <ul class="socials">
+            <li>
+                <a href="">Follow us</a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{{ asset('images/footer-facebook.png') }}" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{{ asset('images/footer-twitter.png') }}" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{{ asset('images/footer-youtube.png') }}" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{{ asset('images/footer-pinterest.png') }}" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="{{ asset('images/footer-periscope.png') }}" alt="">
+                </a>
+            </li>
+        </ul>
     </div>
-
-    <div class="right__side">
-
-        <span>FOLLOW US</span>
-
-        <div class="logo">
-            <img src="{{ asset('images/footer-facebook.png') }}" alt="">
-        </div>
-        
-        <div class="logo">
-            <img src="{{ asset('images/footer-twitter.png') }}" alt="">
-        </div>
-        
-        <div class="logo">
-            <img src="{{ asset('images/footer-youtube.png') }}" alt="">
-        </div>
-        
-        <div class="logo">
-            <img src="{{ asset('images/footer-pinterest.png') }}" alt="">
-        </div>
-        
-        <div class="logo">
-            <img src="{{ asset('images/footer-periscope.png') }}" alt="">
-        </div>
-                
-    </div>
-    
 </footer>

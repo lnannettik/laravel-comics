@@ -239,7 +239,9 @@ Route::get('/comics', function () {
         ],
     ];
     
-    return view('comics');
+    return view('comics', [
+        'comics'=> $comics,
+    ]);
 })->name('comics'); 
 
 
